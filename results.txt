@@ -1,0 +1,56 @@
+== overall ==
+ shipments  delay_pct  avg_days_vs_promise
+      5000       33.7                 0.39
+
+== route ==
+              route  shipments  delay_pct  avg_days_vs_promise
+  Hyderabad-Kolkata        781       38.5                 0.47
+    Hyderabad-Delhi        825       36.6                 0.45
+  Hyderabad-Chennai        881       33.4                 0.37
+   Hyderabad-Mumbai        820       32.9                 0.35
+     Hyderabad-Pune        863       31.5                 0.40
+Hyderabad-Bengaluru        830       29.9                 0.28
+
+== carrier ==
+    carrier  shipments  delay_pct  avg_days_vs_promise
+ RoadRunner       1787       41.1                 0.59
+  SwiftLine       2011       30.7                 0.31
+BlueFreight       1202       28.0                 0.22
+
+== weather ==
+weather  shipments  delay_pct  avg_days_vs_promise
+  Storm        390       61.0                 1.62
+   Rain       1118       43.7                 0.57
+  Clear       3492       27.5                 0.19
+
+== weekday ==
+weekday  shipments  delay_pct
+    Mon        755       33.2
+    Tue        695       32.7
+    Wed        733       31.8
+    Thu        702       32.1
+    Fri        708       30.5
+    Sat        702       37.2
+    Sun        705       38.9
+
+== weight_band ==
+      weight_band  shipments  delay_pct
+    1: under 5 kg        853       28.5
+       2: 5-15 kg       2581       33.9
+      3: 15-30 kg       1330       36.3
+4: 30 kg and over        236       36.4
+
+== month ==
+  month  shipments  delay_pct
+2025-01        396       32.8
+2025-02        425       31.8
+2025-03        426       35.7
+2025-04        420       34.0
+2025-05        409       33.0
+2025-06        435       37.9
+2025-07        427       30.2
+2025-08        399       34.1
+2025-09        386       40.2
+2025-10        433       33.5
+2025-11        381       30.4
+2025-12        463       31.5
